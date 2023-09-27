@@ -6,11 +6,11 @@
         <div class="searchbar w-50 mx-2">
           <input type="text" class="input form-control" v-model="city" placeholder="Enter a city">
         </div>
-        <button class="btn-search btn btn-primary">Search <i class="fas fa-search"></i></button>
+        <button class="btn-search btn btn-primary" @click="searchWeather">Search <i class="fas fa-search"></i></button>
       </div>
     </div>
     <br>
-    <weather></weather>
+    <weather :city="city" v-if="showWeather"></weather>
   </div>
 </template>
 
@@ -43,7 +43,7 @@ body{
   background-color: #121212 !important;
 }
 .header{
-  background-color: #212730;
+  background-color: #212730; 
   border-radius: 20px;
   color: #fff;
   text-align: center;
