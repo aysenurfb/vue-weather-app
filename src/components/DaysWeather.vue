@@ -35,7 +35,7 @@ export default {
   },
   methods:{
     async fetchWeatherDate(){
-        const apiKey ='d711a983698285e8eb88492a02c305ff';
+        const apiKey ='apiKeymustwrittenhere';
         const city = this.cityname;
         const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`
 
