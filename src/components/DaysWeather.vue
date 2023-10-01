@@ -103,7 +103,7 @@ span{
 }
 
 .li_active{
-    background: #253d5c;
+    background: #9376E0;
     color: #222831;
     border-radius: 10px;
     margin: 0.5rem;

@@ -110,7 +110,7 @@ h2.mb-1.day{
 .main-div{
   border-radius:20px;
   color: #fff;
-  background-image: url("https://images.unsplash.com/photo-1695327677553-aa69700a6fb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
+  background-image: url("https://images.unsplash.com/photo-1695606059170-3f825ed4c4db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
@@ -129,6 +129,7 @@ h2.mb-1.day{
   transition: transform 0.5s ease;
   z-index:1;
 }
+
 
 .card-2{
   background-color: #212730;

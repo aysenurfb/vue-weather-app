@@ -40,10 +40,10 @@ export default {
 
 <style>
 body{
-  background-color: #121212 !important;
+  background-color: #ECCCB2 !important;
 }
 .header{
-  background-color: #212730; 
+  background-color: #9376E0;
   border-radius: 20px;
   color: #fff;
   text-align: center;
@@ -51,6 +51,6 @@ body{
   margin-top: 5rem;
 }
 .btn-searcch{
-  background: linear-gradient(to right, cyan, magenta);/* burası calışmadı bak sonra */
+  background-color: maroon;
 }
 </style>
